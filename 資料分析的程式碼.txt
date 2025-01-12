@@ -1,6 +1,5 @@
 
-setwd("C:\\Users\\irene\\Documents\\大學課程\\時間數列\\專案")
-sealevel = read.csv("統計三  李姿穎+周佳萱  (3)資料檔_sealevel.csv", header = T)
+sealevel = read.csv("資料檔_sealevel.csv", header = T)
 #將2002/1~2021/12的資料作為訓練資料
 sealevel_train = sealevel[1:240,] 
 #2022/1~2022/12的資料作為測試資料
